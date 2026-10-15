@@ -29,10 +29,12 @@ mybatis:
 
 login-reg:
   jwt:
-    employee-secret-key: cyh_handsome
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    employee-secret-key: "FAKE_EXAMPLE_EMPLOYEE_SECRET_KEY_REPLACE_ME"
     employee-ttl: 864000000
     employee-token-name: Authorization
-    user-secret-key: user_handsome
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    user-secret-key: "FAKE_EXAMPLE_USER_SECRET_KEY_REPLACE_ME"
     user-ttl: 864000000
     user-token-name: Authorization
 
@@ -43,16 +45,19 @@ hanye:
 
   jwt:
     # 设置jwt签名加密时使用的秘钥
-    admin-secret-key: cyh_handsome
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    admin-secret-key: "FAKE_EXAMPLE_ADMIN_SECRET_KEY_REPLACE_ME"
     # 设置jwt过期时间
     admin-ttl: 86400000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
-    user-secret-key: user_handsome
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    user-secret-key: "FAKE_EXAMPLE_USER_SECRET_KEY_REPLACE_ME"
     user-ttl: 86400000
     user-token-name: authentication
 
   shop:
     address: 黑龙江省大庆市联想科技城
   baidu:
-    ak: ePMydufnJzBBTQlrzKwxAmlpRApLxmOW
+    # 安全备注：下方为无效示例值，仅供占位；部署前必须替换，真实凭据不得提交到 Git。
+    ak: "FAKE_EXAMPLE_AK_REPLACE_ME"
